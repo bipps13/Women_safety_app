@@ -1,0 +1,51 @@
+name: women_safety_app
+description: "Stree Raksha - Women Safety Application"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # 🌍 OpenStreetMap (NO Google Maps)
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+
+  # 📍 Location & Permissions
+  geolocator: ^13.0.1
+  permission_handler: ^11.0.1
+  location: ^6.0.0
+
+  # 🧠 State / Services
+  get_it: ^7.6.7
+  shared_preferences: ^2.2.2
+
+  # 📞 Emergency & Contacts
+  flutter_contacts: ^1.1.7+1
+  contacts_service: ^0.6.3
+  telephony: ^0.2.0
+
+  # 🔗 Utilities
+  url_launcher: ^6.3.0
+  sensors_plus: ^3.1.0
+
+  # 🎨 UI
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.10
+  lottie: ^2.7.0   # keep ONLY one lottie
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/illustrations/
+    - assets/lottie/
