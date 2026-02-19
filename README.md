@@ -1,20 +1,61 @@
-<<<<<<< HEAD
-# women_safety_app
+# 🚨 Women Safety App
 
-A new Flutter project.
+> A real-time emergency response application built using Flutter to enhance women's safety through instant alerts, live tracking, and secure communication.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🌟 Overview
 
-A few resources to get you started if this is your first Flutter project:
+Women Safety App is designed to provide immediate assistance during emergency situations.  
+With a single tap on the SOS button, the app shares live location details with trusted contacts and triggers instant alerts.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+This project focuses on safety, speed, and simplicity.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# Women_safety_app
->>>>>>> ebfc35825b0b9259373794c56e135c040219b023
+---
+
+## 🛠 Tech Stack
+
+- 💙 Flutter (Frontend)
+- 🔥 Firebase Authentication
+- ☁ Cloud Firestore
+- 📍 Google Maps API
+- 🔔 Firebase Cloud Messaging (FCM)
+
+---
+
+## ✨ Key Features
+
+### 🔐 User Authentication
+- Secure Sign Up & Login
+- Firebase Authentication
+- Session management
+
+### 📍 Live Location Tracking
+- Real-time GPS tracking
+- Google Maps integration
+- Accurate location sharing
+
+### 🚨 SOS Emergency Alert
+- One-tap SOS button
+- Sends real-time location to trusted contacts
+- Instant push notifications
+
+### 📞 Emergency Contact Management
+- Add / Edit / Delete contacts
+- Secure cloud storage
+
+### 🔔 Push Notifications
+- Instant alert system
+- Real-time emergency updates
+
+---
+
+## 🧠 How It Works
+
+1. User registers and logs in.
+2. Adds trusted emergency contacts.
+3. Presses SOS in case of emergency.
+4. App fetches real-time GPS location.
+5. Sends notification + live location link to saved contacts.
+
+---
